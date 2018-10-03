@@ -1,0 +1,315 @@
+[10/03/18, 15:48:07:310] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[10/03/18, 15:48:07:311] info: ║      Slack 3.3.1, darwin 16.7.0 on x64 at 10/03/18, 15:48:07:308      ║
+[10/03/18, 15:48:07:311] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[10/03/18, 15:48:07:727] info: Initializing local storage instance at path: /Users/flfinet/Library/Application Support/Slack/local-settings.json
+[10/03/18, 15:48:07:818] error: Locale: Tried to access systemLocale before application was ready
+[10/03/18, 15:48:08:137] info: TraceRecorder: setting up trace recorder, trace will be stored under /Users/flfinet/Library/Application Support/Slack/logs/recorded-trace
+[10/03/18, 15:48:08:142] info: Configuring uncaughtExceptionHandler
+[10/03/18, 15:48:08:142] info: Configuring unhandledRejectionHandler
+[10/03/18, 15:48:08:142] info: Registered with apiKey acaff8df67924f677747922423057034
+[10/03/18, 15:48:08:392] info: Store: persist/REHYDRATE
+[10/03/18, 15:48:08:435] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[10/03/18, 15:48:08:439] info: Created uuid 'b7996933-60e8-58fd-9ccc-4e91d02dc23b'
+[10/03/18, 15:48:08:510] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 16,
+    "minor": 7,
+    "build": 0
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.3.1",
+  "versionName": "Dirty Computer",
+  "devEnv": null,
+  "resourcePath": "/Applications/Slack.app/Contents/Resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true
+}
+[10/03/18, 15:48:08:512] info: AutoLoginEpic: Checking for autologin.
+[10/03/18, 15:48:08:526] info: Store: UPDATE_SETTINGS
+{
+  "hasRunApp": true
+}
+[10/03/18, 15:48:08:529] info: WebContentsMediator: Attaching to new webContents
+[10/03/18, 15:48:08:539] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[10/03/18, 15:48:08:539] info: BrowserViewManager: Starting initialization
+[10/03/18, 15:48:08:541] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": null
+}
+[10/03/18, 15:48:08:541] info: PersistSettingsWindowBehavior: Resetting to default window position
+{
+  "settings": {
+    "position": [
+      512,
+      157
+    ],
+    "size": [
+      1536,
+      1070
+    ]
+  }
+}
+[10/03/18, 15:48:08:541] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "position": [
+    512,
+    157
+  ],
+  "size": [
+    1536,
+    1070
+  ]
+}
+[10/03/18, 15:48:08:547] info: Store: UPDATE_SETTINGS
+{
+  "PrefSSBFileDownloadPath": "/Users/flfinet/Downloads"
+}
+[10/03/18, 15:48:08:548] info: DownloadListener: Downloads directory set to
+{
+  "downloadsDirectory": "/Users/flfinet/Downloads"
+}
+[10/03/18, 15:48:08:549] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[10/03/18, 15:48:08:549] info: App: Welcome to Slack 3.3.1 x64
+[10/03/18, 15:48:08:549] info: App load time: 1,492159909
+[10/03/18, 15:48:08:593] info: Store: SET_UPDATE_STATUS check-for-update
+[10/03/18, 15:48:08:617] info: MacUpdater: Created updater with URL https://slack.com/desktop/update/macos
+[10/03/18, 15:48:08:618] info: MacUpdater: Checking for update
+{
+  "releaseURL": "https://slack.com/desktop/update/macos/releases.json?v=y7VlSNhRoZ6p74Z"
+}
+[10/03/18, 15:48:09:850] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[10/03/18, 15:48:09:854] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[10/03/18, 15:48:09:898] info: MacUpdater: Checking filesystem permissions before running update.
+[10/03/18, 15:48:21:859] error: UpdaterEpics: Failed to check for updates
+{
+  "error": {
+    "message": "",
+    "stack": "Error\n    at Object.maybeChownAppDirectory (/Applications/Slack.app/Contents/Resources/app.asar/src/utils/file-helpers.ts:62:19)\n    at <anonymous>"
+  }
+}
+[10/03/18, 15:48:21:859] info: Store: SET_UPDATE_STATUS error
+[10/03/18, 15:48:21:882] info: Store: SET_NETWORK_STATUS online
+[10/03/18, 15:48:21:883] info: Store: MAIN_WINDOW_SHOWN
+[10/03/18, 15:48:21:898] info: createSignInWindowEpic: No teams signed in, showing sign-in window
+[10/03/18, 15:48:21:900] info: WebContentsMediator: Attaching to new webContents
+[10/03/18, 15:48:21:904] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[10/03/18, 15:48:21:906] info: SignInEpic: Loading URL in new window https://slack.com/signin
+[10/03/18, 15:49:47:057] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[10/03/18, 15:50:24:841] info: Main: Received slack:// protocol link from open-url event, handling when ready
+{
+  "url": "slack://T5924M4U8/magic-login/448333530210-572855c2dec59caab5018c9e139fe5fca51ed7c58cbb4c5da62237f1a3ecaa3f"
+}
+[10/03/18, 15:50:24:894] info: Store: HANDLE_DEEP_LINK
+{
+  "url": "slack://T5924M4U8/magic-login/448333530210-572855c2dec59caab5018c9e139fe5fca51ed7c58cbb4c5da62237f1a3ecaa3f",
+  "causedLaunch": false
+}
+[10/03/18, 15:50:24:898] info: WebContentsMediator: Attaching to new webContents
+[10/03/18, 15:50:24:901] info: MagicLogin: Making magic login API request to https://slack.com/api/
+[10/03/18, 15:50:25:439] info: Store: ADD_NEW_TEAM
+{
+  "team_id": "T5924M4U8",
+  "team_name": "[REDACTED]",
+  "id": "UD0TK6S1L",
+  "name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[10/03/18, 15:50:25:445] info: BrowserViewManager: Creating views for new teams
+{
+  "newTeamIds": [
+    "T5924M4U8"
+  ]
+}
+[10/03/18, 15:50:25:445] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:25:446] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:25:448] info: WebContentsMediator: Attaching to new webContents
+[10/03/18, 15:50:25:449] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "teamId": "T5924M4U8",
+  "state": "unloaded"
+}
+[10/03/18, 15:50:25:452] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T5924M4U8 | start |            |
++-----------+-------+------------+
+[10/03/18, 15:50:25:458] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:25:461] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T5924M4U8 | start |            |
++-----------+-------+------------+
+[10/03/18, 15:50:25:467] info: MagicLogin: added team T5924M4U8
+[10/03/18, 15:50:25:467] info: Application: handleDeepLink for magic login complete
+[10/03/18, 15:50:26:230] info: Team boot count
+{
+  "count": 1
+}
+[10/03/18, 15:50:29:318] info: WebContents LifeCycle: webContents:5 from 'unloaded' to 'loaded' took 3864 ms
+[10/03/18, 15:50:29:318] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:29:319] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T5924M4U8 | loading |            |
++-----------+---------+------------+
+[10/03/18, 15:50:29:547] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:29:949] info: Store: SELECT_CHANNEL C59KMQWBV
+[10/03/18, 15:50:29:954] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "fr-FR",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:29:955] info: TranslationLookup: locale set to fr-FR for browser
+[10/03/18, 15:50:30:105] info: Store: UPDATE_SETTINGS
+{
+  "locale": "fr-FR"
+}
+[10/03/18, 15:50:30:227] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T5924M4U8",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[10/03/18, 15:50:30:505] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_original.png"
+  },
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:863] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "fr-FR",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:939] info: WebContents LifeCycle: webContents:5 from 'loaded' to 'webapp-loaded' took 1621 ms
+[10/03/18, 15:50:30:939] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "webapp-loaded",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:940] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T5924M4U8 | ready |            |
++-----------+-------+------------+
+[10/03/18, 15:50:30:943] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[10/03/18, 15:50:31:079] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T5924M4U8",
+  "enterpriseId": null
+}
+[10/03/18, 15:50:31:080] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:35:291] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[10/03/18, 15:50:35:292] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[10/03/18, 15:50:35:293] info: Store: SHOW_TRAY_BALLOON
+{
+  "title": "Pourquoi l'application Slack ne s'est-elle pas fermée ?",
+  "content": "Slack est configuré pour rester en exécution dans la zone de notification. Pour modifier ce paramètre, accédez à Préférences > Application Linux."
+}
+[10/03/18, 15:50:35:293] warn: Tray Handler: Attempted to show a balloon before the tray icon exists.
+[10/03/18, 15:50:48:305] info: Store: SIGN_IN_CANCELED
+[10/03/18, 15:50:48:306] info: SignInEpic: Sign-in window closed
+[10/03/18, 15:50:48:306] info: maybeQuitAppAction
+{
+  "canceledSignIn": true,
+  "hasNoTeams": false
+}
+[10/03/18, 15:50:48:306] info: SignInEpic: End of the road
+{
+  "action": "none"
+}
+[10/03/18, 15:50:48:306] info: Store: REMOVE_WINDOW 3
+[10/03/18, 16:59:58:904] info: Store: NEW_NOTIFICATION
+{
+  "authorName": "[REDACTED]",
+  "avatarImage": "[REDACTED]",
+  "channel": "C59KMQWBV",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "kBzQhnh9m2j96KV",
+  "launchUri": "slack://channel?id=C59KMQWBV&message=1538578798.000100&team=T5924M4U8",
+  "msg": "[REDACTED]",
+  "ssbFilename": "knock_brush.mp3",
+  "subtitle": "",
+  "teamId": "T5924M4U8",
+  "title": "[REDACTED]"
+}
+[10/03/18, 16:59:58:979] info: Creating new macOS notification.
+[10/03/18, 17:00:06:998] info: Store: FOREGROUND_APP

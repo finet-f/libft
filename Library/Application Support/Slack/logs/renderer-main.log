@@ -1,0 +1,145 @@
+[10/03/18, 15:48:09:396] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[10/03/18, 15:48:09:397] info: ║      Slack 3.3.1, darwin 16.7.0 on x64 at 10/03/18, 15:48:09:394      ║
+[10/03/18, 15:48:09:397] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[10/03/18, 15:48:09:515] info: Initializing local storage instance at path: /Users/flfinet/Library/Application Support/Slack/local-settings.json
+[10/03/18, 15:48:09:650] info: NetworkStatus: Waiting for network online…
+[10/03/18, 15:48:09:852] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[10/03/18, 15:48:09:858] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[10/03/18, 15:48:09:996] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[10/03/18, 15:48:21:860] info: Store: SET_UPDATE_STATUS error
+[10/03/18, 15:48:21:882] info: Store: SET_NETWORK_STATUS online
+[10/03/18, 15:48:21:883] info: Store: MAIN_WINDOW_SHOWN
+[10/03/18, 15:48:21:905] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[10/03/18, 15:49:47:057] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[10/03/18, 15:50:24:894] info: Store: HANDLE_DEEP_LINK
+{
+  "causedLaunch": false,
+  "url": "slack://T5924M4U8/magic-login/448333530210-572855c2dec59caab5018c9e139fe5fca51ed7c58cbb4c5da62237f1a3ecaa3f"
+}
+[10/03/18, 15:50:25:440] info: Store: ADD_NEW_TEAM
+{
+  "id": "UD0TK6S1L",
+  "name": "[REDACTED]",
+  "team_id": "T5924M4U8",
+  "team_name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[10/03/18, 15:50:25:450] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "unloaded",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:29:318] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:29:547] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:29:950] info: Store: SELECT_CHANNEL C59KMQWBV
+[10/03/18, 15:50:29:955] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "fr-FR",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:105] info: Store: UPDATE_SETTINGS
+{
+  "locale": "fr-FR"
+}
+[10/03/18, 15:50:30:106] info: TranslationLookup: locale set to fr-FR for renderer
+[10/03/18, 15:50:30:228] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T5924M4U8",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[10/03/18, 15:50:30:506] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_original.png"
+  },
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:865] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "fr-FR",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:940] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "webapp-loaded",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:944] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[10/03/18, 15:50:31:079] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:31:080] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T5924M4U8",
+  "token": "xoxs-⋯"
+}
+[10/03/18, 15:50:35:292] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[10/03/18, 15:50:35:293] info: Store: SHOW_TRAY_BALLOON
+{
+  "content": "Slack est configuré pour rester en exécution dans la zone de notification. Pour modifier ce paramètre, accédez à Préférences > Application Linux.",
+  "title": "Pourquoi l'application Slack ne s'est-elle pas fermée ?"
+}
+[10/03/18, 15:50:48:305] info: Store: SIGN_IN_CANCELED
+[10/03/18, 15:50:48:307] info: Store: REMOVE_WINDOW 3
+[10/03/18, 16:59:58:904] info: Store: NEW_NOTIFICATION
+{
+  "authorName": "[REDACTED]",
+  "avatarImage": "[REDACTED]",
+  "channel": "C59KMQWBV",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "kBzQhnh9m2j96KV",
+  "launchUri": "slack://channel?id=C59KMQWBV&message=1538578798.000100&team=T5924M4U8",
+  "msg": "[REDACTED]",
+  "ssbFilename": "knock_brush.mp3",
+  "subtitle": "",
+  "teamId": "T5924M4U8",
+  "title": "[REDACTED]"
+}
+[10/03/18, 17:00:06:999] info: Store: FOREGROUND_APP

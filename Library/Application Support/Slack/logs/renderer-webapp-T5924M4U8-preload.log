@@ -1,0 +1,121 @@
+[10/03/18, 15:50:26:341] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[10/03/18, 15:50:26:342] info: ║      Slack 3.3.1, darwin 16.7.0 on x64 at 10/03/18, 15:50:26:339      ║
+[10/03/18, 15:50:26:342] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[10/03/18, 15:50:26:453] info: Initializing local storage instance at path: /Users/flfinet/Library/Application Support/Slack/local-settings.json
+[10/03/18, 15:50:26:802] info: cld3::loadModule: loading cld3 module
+[10/03/18, 15:50:26:821] info: cld3Loader::loadModule: running environment is NODE
+[10/03/18, 15:50:26:821] info: cld3Loader::loadModule: constructed module object for runtime
+[10/03/18, 15:50:27:096] info: cld3Loader::initializeRuntime: successfully initialized module
+[10/03/18, 15:50:27:096] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[10/03/18, 15:50:27:101] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[10/03/18, 15:50:27:109] info: TouchBarIntegration: Initializing TouchBar classes
+[10/03/18, 15:50:27:113] info: Main window preload script finished
+{
+  "readyTime": 1004.080642
+}
+[10/03/18, 15:50:29:644] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:29:676] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:329] info: Store: SELECT_CHANNEL C59KMQWBV
+[10/03/18, 15:50:30:330] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "fr-FR",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:30:357] info: Store: UPDATE_SETTINGS
+{
+  "locale": "fr-FR"
+}
+[10/03/18, 15:50:30:358] info: TranslationLookup: locale set to fr-FR for renderer
+[10/03/18, 15:50:30:368] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T5924M4U8",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[10/03/18, 15:50:30:716] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-10-30/263257555232_1fa8a95ff6b4c19b9086_original.png"
+  },
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:31:034] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "fr-FR",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:31:035] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "webapp-loaded",
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:31:037] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[10/03/18, 15:50:31:079] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T5924M4U8"
+}
+[10/03/18, 15:50:31:080] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T5924M4U8",
+  "token": "xoxs-⋯"
+}
+[10/03/18, 15:50:31:120] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[10/03/18, 15:50:35:292] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[10/03/18, 15:50:35:293] info: Store: SHOW_TRAY_BALLOON
+{
+  "content": "Slack est configuré pour rester en exécution dans la zone de notification. Pour modifier ce paramètre, accédez à Préférences > Application Linux.",
+  "title": "Pourquoi l'application Slack ne s'est-elle pas fermée ?"
+}
+[10/03/18, 15:50:48:306] info: Store: SIGN_IN_CANCELED
+[10/03/18, 15:50:48:307] info: Store: REMOVE_WINDOW 3
+[10/03/18, 16:59:58:905] info: Store: NEW_NOTIFICATION
+{
+  "authorName": "[REDACTED]",
+  "avatarImage": "[REDACTED]",
+  "channel": "C59KMQWBV",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "kBzQhnh9m2j96KV",
+  "launchUri": "slack://channel?id=C59KMQWBV&message=1538578798.000100&team=T5924M4U8",
+  "msg": "[REDACTED]",
+  "ssbFilename": "knock_brush.mp3",
+  "subtitle": "",
+  "teamId": "T5924M4U8",
+  "title": "[REDACTED]"
+}
+[10/03/18, 17:00:06:999] info: Store: FOREGROUND_APP

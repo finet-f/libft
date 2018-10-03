@@ -1,0 +1,14 @@
+[10/03/18, 15:48:09:426] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[10/03/18, 15:48:09:426] info: ║      Slack 3.3.1, darwin 16.7.0 on x64 at 10/03/18, 15:48:09:424      ║
+[10/03/18, 15:48:09:426] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[10/03/18, 15:48:09:495] info: Initializing local storage instance at path: /Users/flfinet/Library/Application Support/Slack/local-settings.json
+[10/03/18, 15:48:09:851] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[10/03/18, 15:48:09:855] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[10/03/18, 15:48:21:860] info: Store: SET_UPDATE_STATUS error
+[10/03/18, 15:48:21:882] info: Store: SET_NETWORK_STATUS online
+[10/03/18, 15:48:21:883] info: Store: MAIN_WINDOW_SHOWN
+[10/03/18, 15:48:21:905] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}

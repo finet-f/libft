@@ -1,0 +1,199 @@
+info: ╔═══════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.3.1, darwin 16.7.0 on x64 at 10/03/18, 15:50:25:454      ║
+info: ╚═══════════════════════════════════════════════════════════════════════╝
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Oct-3 15:50:28.871 [BOOT] booted! pri:0 version:1538537703 start_ms:1538574627430 (1441ms ago)
+info: Oct-3 15:50:28.871 [BOOT] Starting incremental boot (early)
+warn: Oct-3 15:50:28.990 error getActiveModelOb found no ob
+warn: Oct-3 15:50:28.990 TS.boot_data.channel_id: undefined
+warn: Oct-3 15:50:28.990 TS.boot_data.im_id: undefined
+warn: Oct-3 15:50:28.990 TS.boot_data.group_id: undefined
+warn: Oct-3 15:50:28.991 error getActiveModelOb found no ob
+warn: Oct-3 15:50:28.991 TS.boot_data.channel_id: undefined
+warn: Oct-3 15:50:28.991 TS.boot_data.im_id: undefined
+warn: Oct-3 15:50:28.991 TS.boot_data.group_id: undefined
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Oct-3 15:50:29.331 [SOCKET-MANAGER] (T5924M4U8) Changing from never_connected to prov_connect
+info: Oct-3 15:50:29.331 [SOCKET-MANAGER] (T5924M4U8) will stay in prov_connect state for up to 10000 ms
+info: Oct-3 15:50:29.332 [SOCKET-MANAGER] (T5924M4U8) Changing from prov_connect to prov_connecting
+info: Oct-3 15:50:29.332 [SOCKET-MANAGER] (T5924M4U8) will stay in prov_connecting state for up to 35000 ms
+info: Oct-3 15:50:29.462 [API-Q] (T5924M4U8) 564c1f24-1538574629.461 apps.actions.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:29.463 [API-Q] (T5924M4U8) 564c1f24-1538574629.461 apps.actions.list is ENQUEUED
+info: Oct-3 15:50:29.463 [API-Q] (T5924M4U8) 564c1f24-1538574629.461 apps.actions.list is ACTIVE
+info: Oct-3 15:50:29.630 [API-Q] (T5924M4U8) 564c1f24-1538574629.629 apps.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:29.630 [API-Q] (T5924M4U8) 564c1f24-1538574629.629 apps.list is ENQUEUED
+info: Oct-3 15:50:29.630 [API-Q] (T5924M4U8) 564c1f24-1538574629.629 apps.list is ACTIVE
+info: Oct-3 15:50:29.633 [API-Q] (T5924M4U8) 564c1f24-1538574629.633 commands.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:29.633 [API-Q] (T5924M4U8) 564c1f24-1538574629.633 commands.list is ENQUEUED
+info: Oct-3 15:50:29.633 [API-Q] (T5924M4U8) 564c1f24-1538574629.633 commands.list is ACTIVE
+info: Oct-3 15:50:29.634 [API-Q] (T5924M4U8) 564c1f24-1538574629.634 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:29.634 [API-Q] (T5924M4U8) 564c1f24-1538574629.634 i18n.translations.get is ENQUEUED
+info: Oct-3 15:50:29.635 [API-Q] (T5924M4U8) 564c1f24-1538574629.634 i18n.translations.get is ACTIVE
+warn: Oct-3 15:50:29.635 updateTeamIcon was called, but missing an image to set
+info: Oct-3 15:50:29.640 [API-Q] (T5924M4U8) 564c1f24-1538574629.640 emoji.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:29.640 [API-Q] (T5924M4U8) 564c1f24-1538574629.640 emoji.list is ENQUEUED
+info: Oct-3 15:50:29.641 [API-Q] (T5924M4U8) 564c1f24-1538574629.640 emoji.list is ACTIVE
+info: Oct-3 15:50:29.677 [API-Q] (T5924M4U8) 564c1f24-1538574629.461 apps.actions.list is RESOLVED
+info: Oct-3 15:50:29.680 [UNKNOWN-FETCH-MANAGER] (T5924M4U8) requesting UD0TK6S1L (1)
+info: Oct-3 15:50:29.683 [UNKNOWN-FETCH-MANAGER] (T5924M4U8) received UD0TK6S1L (1)
+info: Oct-3 15:50:29.684 [UNKNOWN-FETCH-MANAGER] (T5924M4U8) requesting C59KMQWBV (1)
+info: Oct-3 15:50:29.685 [UNKNOWN-FETCH-MANAGER] (T5924M4U8) received C59KMQWBV (1)
+info: Oct-3 15:50:29.764 [API-Q] (T5924M4U8) 564c1f24-1538574629.634 i18n.translations.get is RESOLVED
+info: Oct-3 15:50:29.766 [API-Q] (T5924M4U8) 564c1f24-1538574629.640 emoji.list is RESOLVED
+info: Oct-3 15:50:29.951 [API-Q] (T5924M4U8) 564c1f24-1538574629.951 users.prefs.set called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:29.951 [API-Q] (T5924M4U8) 564c1f24-1538574629.951 users.prefs.set is ENQUEUED
+info: Oct-3 15:50:29.951 [API-Q] (T5924M4U8) 564c1f24-1538574629.951 users.prefs.set is ACTIVE
+info: Oct-3 15:50:29.952 [API-Q] (T5924M4U8) 564c1f24-1538574629.952 users.prefs.set called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:29.952 [API-Q] (T5924M4U8) 564c1f24-1538574629.952 users.prefs.set is ENQUEUED
+info: Oct-3 15:50:29.952 [API-Q] (T5924M4U8) 564c1f24-1538574629.952 users.prefs.set is ACTIVE
+info: Oct-3 15:50:29.954 [BOOT] Finalizing incremental boot
+info: Oct-3 15:50:29.955 [METRICS] Starting timers for metrics collection
+info: Oct-3 15:50:29.956 [FLANNEL] (T5924M4U8) received a user_counts_request call while we are not connected; deferring
+info: Oct-3 15:50:30.075 [SWITCH-TO-CHANNEL] (T5924M4U8) Switching to C59KMQWBV at end
+info: Oct-3 15:50:30.091 [API-Q] (T5924M4U8) 564c1f24-1538574630.090 promo.banner called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:30.091 [API-Q] (T5924M4U8) 564c1f24-1538574630.090 promo.banner is ENQUEUED
+info: Oct-3 15:50:30.091 [API-Q] (T5924M4U8) 564c1f24-1538574630.090 promo.banner is ACTIVE
+info: Oct-3 15:50:30.099 [PERF] (T5924M4U8) First meaningful paint: 4544ms
+info: Oct-3 15:50:30.248 [SOCKET-MANAGER] (T5924M4U8) Changing from prov_connecting to prov_connected
+info: Oct-3 15:50:30.248 [SOCKET-MANAGER] (T5924M4U8) will stay in prov_connected state for up to 60000 ms
+info: Oct-3 15:50:30.249 [FLANNEL] (T5924M4U8) connected! Continuing deferred user_counts_request call
+info: Oct-3 15:50:30.251 [INFO] Got start data from Socket Manager; hydrating it
+warn: Oct-3 15:50:30.267 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Oct-3 15:50:30.269 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Oct-3 15:50:30.292 [BOOT] Completed incremental boot
+info: Oct-3 15:50:30.297 [API-Q] (T5924M4U8) 564c1f24-1538574630.297 apps.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:30.297 [API-Q] (T5924M4U8) 564c1f24-1538574630.297 apps.list is ENQUEUED
+info: Oct-3 15:50:30.298 [API-Q] (T5924M4U8) 564c1f24-1538574630.297 apps.list is ACTIVE
+info: Oct-3 15:50:30.309 [API-Q] (T5924M4U8) 564c1f24-1538574630.298 commands.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:30.309 [API-Q] (T5924M4U8) 564c1f24-1538574630.298 commands.list is ENQUEUED
+info: Oct-3 15:50:30.310 [API-Q] (T5924M4U8) 564c1f24-1538574630.298 commands.list is ACTIVE
+info: Oct-3 15:50:30.318 [API-Q] (T5924M4U8) 564c1f24-1538574630.318 emoji.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:30.319 [API-Q] (T5924M4U8) 564c1f24-1538574630.318 emoji.list is ENQUEUED
+info: Oct-3 15:50:30.319 [API-Q] (T5924M4U8) 564c1f24-1538574630.318 emoji.list is ACTIVE
+info: Oct-3 15:50:30.337 [API-Q] (T5924M4U8) 564c1f24-1538574629.629 apps.list is RESOLVED
+info: Oct-3 15:50:30.355 [API-Q] (T5924M4U8) 564c1f24-1538574629.633 commands.list is RESOLVED
+info: Oct-3 15:50:30.358 [API-Q] (T5924M4U8) 564c1f24-1538574629.952 users.prefs.set is RESOLVED
+info: Oct-3 15:50:30.370 [UNKNOWN-FETCH-MANAGER] (T5924M4U8) requesting U6YBS4CFR,USLACKBOT (1)
+info: Oct-3 15:50:30.376 [API-Q] (T5924M4U8) 564c1f24-1538574630.090 promo.banner is RESOLVED
+info: Oct-3 15:50:30.377 [CHECK-UNREADS] (T5924M4U8) Checking unreads after fully booted
+info: Oct-3 15:50:30.377 [CHECK-UNREADS] (T5924M4U8) Not marking C59KMQWBV because attention not on chat (window_not_focused)
+info: Oct-3 15:50:30.394 [API-Q] (T5924M4U8) 564c1f24-1538574629.951 users.prefs.set is RESOLVED
+info: Oct-3 15:50:30.407 [UNKNOWN-FETCH-MANAGER] (T5924M4U8) received U6YBS4CFR,USLACKBOT (1)
+info: Oct-3 15:50:30.438 [API-Q] (T5924M4U8) 564c1f24-1538574630.298 commands.list is RESOLVED
+info: Oct-3 15:50:30.719 [API-Q] (T5924M4U8) 564c1f24-1538574630.297 apps.list is RESOLVED
+info: Oct-3 15:50:30.720 [API-Q] (T5924M4U8) 564c1f24-1538574630.318 emoji.list is RESOLVED
+info: Oct-3 15:50:30.864 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Oct-3 15:50:30.865 [SOCKET-MANAGER] (T5924M4U8) Changing from prov_connected to prov_finalize
+info: Oct-3 15:50:30.865 [SOCKET-MANAGER] (T5924M4U8) will stay in prov_finalize state for up to 10000 ms
+info: Oct-3 15:50:30.865 [SOCKET-MANAGER] (T5924M4U8) Changing from prov_finalize to prov_finalizing
+info: Oct-3 15:50:30.865 [SOCKET-MANAGER] (T5924M4U8) will stay in prov_finalizing state for up to 10000 ms
+info: Oct-3 15:50:30.867 [SOCKET-MANAGER] (T5924M4U8) Changing from prov_finalizing to connected
+info: Oct-3 15:50:30.867 [SOCKET-MANAGER] (T5924M4U8) will stay in connected state for up to Infinity ms
+info: Oct-3 15:50:30.867 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Oct-3 15:50:30.942 [BOOT] Finished first boot 1619 ms after DOM ready
+info: Oct-3 15:50:30.947 [API-Q] (T5924M4U8) 564c1f24-1538574630.947 help.issues.list called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:30.947 [API-Q] (T5924M4U8) 564c1f24-1538574630.947 help.issues.list is ENQUEUED
+info: Oct-3 15:50:30.948 [API-Q] (T5924M4U8) 564c1f24-1538574630.947 help.issues.list is ACTIVE
+info: Oct-3 15:50:30.949 [API-Q] (T5924M4U8) 564c1f24-1538574630.949 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:30.949 [API-Q] (T5924M4U8) 564c1f24-1538574630.949 dnd.teamInfo is ENQUEUED
+info: Oct-3 15:50:30.950 [API-Q] (T5924M4U8) 564c1f24-1538574630.949 dnd.teamInfo is ACTIVE
+info: Oct-3 15:50:30.951 [INFO] MSConnected: 
+info: Oct-3 15:50:30.986 [API-Q] (T5924M4U8) 564c1f24-1538574630.986 users.counts called with reason: NO REASON PROVIDED
+info: Oct-3 15:50:30.986 [API-Q] (T5924M4U8) 564c1f24-1538574630.986 users.counts is ENQUEUED
+info: Oct-3 15:50:30.986 [API-Q] (T5924M4U8) 564c1f24-1538574630.986 users.counts is ACTIVE
+info: Oct-3 15:50:31.006 [HISTORY-FETCH] (T5924M4U8) Fetching history for message pane: C59KMQWBV oldest: 1538573460.000100 latest: null
+info: Oct-3 15:50:31.008 [API-Q] (T5924M4U8) 564c1f24-1538574631.007 conversations.history called with reason: message-pane/requestHistory
+info: Oct-3 15:50:31.008 [API-Q] (T5924M4U8) 564c1f24-1538574631.007 conversations.history is ENQUEUED
+info: Oct-3 15:50:31.008 [API-Q] (T5924M4U8) 564c1f24-1538574631.007 conversations.history is ACTIVE
+info: Oct-3 15:50:31.063 [API-Q] (T5924M4U8) 564c1f24-1538574630.947 help.issues.list is RESOLVED
+info: Oct-3 15:50:31.067 [API-Q] (T5924M4U8) 564c1f24-1538574630.949 dnd.teamInfo is RESOLVED
+info: Oct-3 15:50:31.084 [MESSAGE-LIST] (T5924M4U8) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 31
+info: Oct-3 15:50:31.180 [API-Q] (T5924M4U8) 564c1f24-1538574630.986 users.counts is RESOLVED
+info: Oct-3 15:50:31.186 [COUNTS] (T5924M4U8) Completed counts processing
+info: Oct-3 15:50:31.197 [API-Q] (T5924M4U8) 564c1f24-1538574631.007 conversations.history is RESOLVED
+info: Oct-3 15:50:31.201 [UNREAD-COUNTS] (T5924M4U8) Counting unreads in C59KMQWBV because (1) timestamps added
+info: Oct-3 15:50:31.203 [MESSAGE-LIST] (T5924M4U8) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 31
+info: Oct-3 15:50:31.206 [CHECK-UNREADS] (T5924M4U8) unreadLineVisible updated: false -> true
+info: Oct-3 15:50:31.565 [CHECK-UNREADS] (T5924M4U8) Checking unreads after unread line became visible
+info: Oct-3 15:50:31.565 [CHECK-UNREADS] (T5924M4U8) Not marking C59KMQWBV because attention not on chat (window_not_focused)
+info: Oct-3 15:51:54.589 [API-Q] (T5924M4U8) 564c1f24-1538574714.589 channels.suggestions called with reason: NO REASON PROVIDED
+info: Oct-3 15:51:54.589 [API-Q] (T5924M4U8) 564c1f24-1538574714.589 channels.suggestions is ENQUEUED
+info: Oct-3 15:51:54.590 [API-Q] (T5924M4U8) 564c1f24-1538574714.589 channels.suggestions is ACTIVE
+info: Oct-3 15:51:54.974 [API-Q] (T5924M4U8) 564c1f24-1538574714.589 channels.suggestions is RESOLVED
+info: Oct-3 16:59:58.887 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Oct-3 16:59:58.887 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Oct-3 16:59:58.894 [UNREAD-COUNTS] (T5924M4U8) Counting unreads in C59KMQWBV because (1) timestamps added
+info: Oct-3 16:59:58.894 [COUNTS] (T5924M4U8) Updated unread_cnt for C59KMQWBV: 1
+info: Oct-3 16:59:58.896 [COUNTS] (T5924M4U8) Updated unread_highlight_cnt for C59KMQWBV: 1
+info: Oct-3 16:59:58.898 [UNREAD-COUNTS] (T5924M4U8) Checking unreads in C59KMQWBV after a new message
+info: Oct-3 16:59:58.898 [CHECK-UNREADS] (T5924M4U8) Not marking C59KMQWBV because attention not on chat (window_not_focused)
+info: Oct-3 17:00:07.002 [FOCUS-EVENT] Window focused
+info: Oct-3 17:00:07.101 [CHECK-UNREADS] (T5924M4U8) Checking unreads after window became focused
+info: Oct-3 17:00:07.101 [CHECK-UNREADS] (T5924M4U8) Marking C59KMQWBV because unread line is visible
+info: Oct-3 17:00:07.105 [UNREAD-COUNTS] (T5924M4U8) Counting unreads in C59KMQWBV because last_read changed to 1538578798.000100
+info: Oct-3 17:00:07.106 [COUNTS] (T5924M4U8) Updated unread_cnt for C59KMQWBV: 0
+info: Oct-3 17:00:07.108 [COUNTS] (T5924M4U8) Updated unread_highlight_cnt for C59KMQWBV: 0
+info: Oct-3 17:00:11.300 [API-Q] (T5924M4U8) 564c1f24-1538578811.300 conversations.mark called with reason: NO REASON PROVIDED
+info: Oct-3 17:00:11.300 [API-Q] (T5924M4U8) 564c1f24-1538578811.300 conversations.mark is ENQUEUED
+info: Oct-3 17:00:11.301 [API-Q] (T5924M4U8) 564c1f24-1538578811.300 conversations.mark is ACTIVE
+info: Oct-3 17:00:11.738 [API-Q] (T5924M4U8) 564c1f24-1538578811.300 conversations.mark is RESOLVED
+info: Oct-3 17:00:45.425 [FOCUS-EVENT] Window blurred
+info: Oct-3 17:12:40.524 [MIN-VERSION] (T5924M4U8) checking to see if we should reload
+info: Oct-3 17:12:40.524 [API-Q] (T5924M4U8) 564c1f24-1538579560.524 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Oct-3 17:12:40.524 [API-Q] (T5924M4U8) 564c1f24-1538579560.524 rtm.shouldReload is ENQUEUED
+info: Oct-3 17:12:40.525 [API-Q] (T5924M4U8) 564c1f24-1538579560.524 rtm.shouldReload is ACTIVE
+info: Oct-3 17:12:40.917 [API-Q] (T5924M4U8) 564c1f24-1538579560.524 rtm.shouldReload is RESOLVED
+info: Oct-3 17:12:40.918 [MIN-VERSION] (T5924M4U8) no need to reload
+info: Oct-3 17:31:03.273 [FOCUS-EVENT] Window focused
+info: Oct-3 17:31:03.297 [CHECK-UNREADS] (T5924M4U8) Checking unreads after window became focused
+info: Oct-3 17:31:03.297 [CHECK-UNREADS] (T5924M4U8) Not marking C59KMQWBV because last_read >= latest && channel is read
+info: Oct-3 17:31:04.505 [FOCUS-EVENT] Window blurred
+info: Oct-3 17:31:06.831 [FOCUS-EVENT] Window focused
+info: Oct-3 17:31:06.851 [CHECK-UNREADS] (T5924M4U8) Checking unreads after window became focused
+info: Oct-3 17:31:06.851 [CHECK-UNREADS] (T5924M4U8) Not marking C59KMQWBV because last_read >= latest && channel is read
+info: Oct-3 17:31:08.988 [FOCUS-EVENT] Window blurred
+info: Oct-3 17:37:50.901 [FOCUS-EVENT] Window focused
+info: Oct-3 17:37:50.919 [CHECK-UNREADS] (T5924M4U8) Checking unreads after window became focused
+info: Oct-3 17:37:50.919 [CHECK-UNREADS] (T5924M4U8) Not marking C59KMQWBV because last_read >= latest && channel is read
+info: Oct-3 17:37:51.250 [API-Q] (T5924M4U8) 564c1f24-1538581071.249 search.autocomplete.querySuggestions called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.250 [API-Q] (T5924M4U8) 564c1f24-1538581071.249 search.autocomplete.querySuggestions is ENQUEUED
+info: Oct-3 17:37:51.250 [API-Q] (T5924M4U8) 564c1f24-1538581071.249 search.autocomplete.querySuggestions is ACTIVE
+info: Oct-3 17:37:51.252 [API-Q] (T5924M4U8) 564c1f24-1538581071.250 search.autocomplete.querySuggestions called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.252 [API-Q] (T5924M4U8) 564c1f24-1538581071.250 search.autocomplete.querySuggestions is ENQUEUED
+info: Oct-3 17:37:51.252 [API-Q] (T5924M4U8) 564c1f24-1538581071.250 search.autocomplete.querySuggestions is ACTIVE
+info: Oct-3 17:37:51.253 [API-Q] (T5924M4U8) 564c1f24-1538581071.253 search.autocomplete.querySuggestions called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.253 [API-Q] (T5924M4U8) 564c1f24-1538581071.253 search.autocomplete.querySuggestions is ENQUEUED
+info: Oct-3 17:37:51.253 [API-Q] (T5924M4U8) 564c1f24-1538581071.253 search.autocomplete.querySuggestions is ACTIVE
+info: Oct-3 17:37:51.254 [API-Q] (T5924M4U8) 564c1f24-1538581071.254 search.autocomplete.querySuggestions called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.254 [API-Q] (T5924M4U8) 564c1f24-1538581071.254 search.autocomplete.querySuggestions is ENQUEUED
+info: Oct-3 17:37:51.254 [API-Q] (T5924M4U8) 564c1f24-1538581071.254 search.autocomplete.querySuggestions is ACTIVE
+info: Oct-3 17:37:51.255 [API-Q] (T5924M4U8) 564c1f24-1538581071.255 search.autocomplete.fileSuggestions called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.255 [API-Q] (T5924M4U8) 564c1f24-1538581071.255 search.autocomplete.fileSuggestions is ENQUEUED
+info: Oct-3 17:37:51.255 [API-Q] (T5924M4U8) 564c1f24-1538581071.255 search.autocomplete.fileSuggestions is ACTIVE
+info: Oct-3 17:37:51.334 [API-Q] (T5924M4U8) 564c1f24-1538581071.334 users.prefs.set called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.334 [API-Q] (T5924M4U8) 564c1f24-1538581071.334 users.prefs.set is ENQUEUED
+info: Oct-3 17:37:51.334 [API-Q] (T5924M4U8) 564c1f24-1538581071.334 users.prefs.set is ACTIVE
+info: Oct-3 17:37:51.339 [IMPROVED_SEARCH] (T5924M4U8) Open Search
+info: Oct-3 17:37:51.339 [IMPROVED_SEARCH] (T5924M4U8) Search is opening without query: Starting new search session
+info: Oct-3 17:37:51.479 [API-Q] (T5924M4U8) 564c1f24-1538581071.479 search.precache called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.479 [API-Q] (T5924M4U8) 564c1f24-1538581071.479 search.precache is ENQUEUED
+info: Oct-3 17:37:51.479 [API-Q] (T5924M4U8) 564c1f24-1538581071.479 search.precache is ACTIVE
+info: Oct-3 17:37:51.483 [API-Q] (T5924M4U8) 564c1f24-1538581071.483 search.autocomplete called with reason: NO REASON PROVIDED
+info: Oct-3 17:37:51.483 [API-Q] (T5924M4U8) 564c1f24-1538581071.483 search.autocomplete is ENQUEUED
+info: Oct-3 17:37:51.484 [API-Q] (T5924M4U8) 564c1f24-1538581071.483 search.autocomplete is ACTIVE
+info: Oct-3 17:37:51.662 [API-Q] (T5924M4U8) 564c1f24-1538581071.250 search.autocomplete.querySuggestions is RESOLVED
+info: Oct-3 17:37:51.663 [API-Q] (T5924M4U8) 564c1f24-1538581071.249 search.autocomplete.querySuggestions is RESOLVED
+info: Oct-3 17:37:51.666 [API-Q] (T5924M4U8) 564c1f24-1538581071.253 search.autocomplete.querySuggestions is RESOLVED
+info: Oct-3 17:37:51.668 [API-Q] (T5924M4U8) 564c1f24-1538581071.254 search.autocomplete.querySuggestions is RESOLVED
+info: Oct-3 17:37:51.679 [API-Q] (T5924M4U8) 564c1f24-1538581071.255 search.autocomplete.fileSuggestions is RESOLVED
+info: Oct-3 17:37:51.721 [API-Q] (T5924M4U8) 564c1f24-1538581071.334 users.prefs.set is RESOLVED
+info: Oct-3 17:37:51.838 [API-Q] (T5924M4U8) 564c1f24-1538581071.483 search.autocomplete is RESOLVED
+info: Oct-3 17:37:51.857 [API-Q] (T5924M4U8) 564c1f24-1538581071.479 search.precache is RESOLVED
+info: Oct-3 17:38:11.704 [FOCUS-EVENT] Window blurred
+info: Oct-3 17:41:56.558 [FOCUS-EVENT] Window focused
+info: Oct-3 17:41:56.568 [CHECK-UNREADS] (T5924M4U8) Checking unreads after window became focused
+info: Oct-3 17:41:56.568 [CHECK-UNREADS] (T5924M4U8) Not marking C59KMQWBV because attention not on chat (universal_search_is_showing)
+info: Oct-3 17:41:59.696 [FOCUS-EVENT] Window blurred

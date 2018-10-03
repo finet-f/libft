@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Programmation C/Tableaux — Wikilivres</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Programmation_C/Tableaux","wgTitle":"Programmation C/Tableaux","wgCurRevisionId":511209,"wgRevisionId":511209,"wgArticleId":462,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Programmation C (livre)"],"wgBreakFrames":false,"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgMonthNamesShort":["","janv.","fév.","mars","avr.","mai","juin","juill.","août","sept.","oct.","nov.","déc."],"wgRelevantPageName":"Programmation_C/Tableaux","wgRelevantArticleId":462,"wgRequestId":"W7OEIQrAMGAAABifaB4AAABM","wgCSPNonce":false,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr","usePageImages":false,"usePageDescriptions":true},"wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgULSCurrentAutonym":"français","wgNoticeProject":"wikibooks","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":true,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.3d.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@1dpodri",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"fr"});
+});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.extlinks","ext.gadget.EditIndex","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=fr&amp;modules=ext.3d.styles%7Cext.pygments%2CwikimediaBadges%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=fr&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.32.0-wmf.23"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit"/>
+<link rel="edit" title="Modifier" href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit"/>
+<link rel="shortcut icon" href="/static/favicon/wikibooks.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikilivres (fr)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikibooks.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Flux Atom de Wikilivres" href="/w/index.php?title=Sp%C3%A9cial:Modifications_r%C3%A9centes&amp;feed=atom"/>
+<link rel="canonical" href="https://fr.wikibooks.org/wiki/Programmation_C/Tableaux"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=fr&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Programmation_C_Tableaux rootpage-Programmation_C skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="fr">Programmation C/Tableaux</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">Un livre de Wikilivres.</div>				<div id="contentSub"><span class="subpages">&lt; <a href="/wiki/Programmation_C" title="Programmation C">Programmation C</a></span></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Sauter à la navigation</a>
+				<a class="mw-jump-link" href="#p-search">Sauter à la recherche</a>
+				<div id="mw-content-text" lang="fr" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="icone_de_titre noprint" style="float:right;z-index:10; position:relative; font-size:25px; line-height:25px; display:none"><a href="/wiki/Programmation_C/Version_imprimable" title="Version imprimable"><img alt="Version imprimable" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gnome-dev-printer.svg/25px-Gnome-dev-printer.svg.png" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gnome-dev-printer.svg/38px-Gnome-dev-printer.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gnome-dev-printer.svg/50px-Gnome-dev-printer.svg.png 2x" data-file-width="60" data-file-height="60" /></a></div>
+<div class="noprint">
+<table style="margin: 0 0 1em 1em; border:3px blue solid; border-style: inset; background-color:white;" cellspacing="0" cellpadding="2px" align="right">
+<tbody><tr>
+<td style="text-align:center;background:#EAF5FB;"><b><a href="/wiki/Programmation_C" title="Programmation C">Programmation C</a></b>
+</td></tr>
+<tr>
+<th>Sommaire
+</th></tr>
+<tr>
+<td>
+<p><small>
+</small></p><small>
+<ul><li><a href="/wiki/Programmation_C/Introduction" title="Programmation C/Introduction">Introduction</a></li>
+<li><a href="/wiki/Programmation_C/Bases_du_langage" title="Programmation C/Bases du langage">Bases du langage</a>
+<ul><li><a href="/wiki/Programmation_C/Types_de_base" title="Programmation C/Types de base">Types de base</a></li>
+<li><a href="/wiki/Programmation_C/Classe_de_stockage" title="Programmation C/Classe de stockage">Classe de stockage</a></li>
+<li><a href="/wiki/Programmation_C/Op%C3%A9rateurs" title="Programmation C/Opérateurs">Opérateurs</a></li>
+<li><a href="/wiki/Programmation_C/Tests" title="Programmation C/Tests">Tests</a></li>
+<li><a href="/wiki/Programmation_C/It%C3%A9rations" title="Programmation C/Itérations">Itérations</a></li>
+<li><a href="/wiki/Programmation_C/Fonctions_et_proc%C3%A9dures" title="Programmation C/Fonctions et procédures">Fonctions</a></li>
+<li><a class="mw-selflink selflink">Tableaux</a></li>
+<li><a href="/wiki/Programmation_C/Pointeurs" title="Programmation C/Pointeurs">Pointeurs</a></li>
+<li><a href="/wiki/Programmation_C/Types_avanc%C3%A9s" title="Programmation C/Types avancés">Types avancés</a></li>
+<li><a href="/wiki/Programmation_C/Pr%C3%A9processeur" title="Programmation C/Préprocesseur">Préprocesseur</a></li></ul></li>
+<li><a href="/wiki/Programmation_C/Biblioth%C3%A8que_standard" title="Programmation C/Bibliothèque standard">Bibliothèque</a>
+<ul><li><a href="/wiki/Programmation_C/Cha%C3%AEnes_de_caract%C3%A8res" title="Programmation C/Chaînes de caractères">Chaînes</a></li>
+<li><a href="/wiki/Programmation_C/Entr%C3%A9es/sorties" title="Programmation C/Entrées/sorties">Entrées/sorties</a></li>
+<li><a href="/wiki/Programmation_C/Erreurs" title="Programmation C/Erreurs">Erreurs</a></li>
+<li><a href="/wiki/Programmation_C/Math%C3%A9matiques" title="Programmation C/Mathématiques">Mathématiques</a>
+<ul><li><a href="/wiki/Programmation_C/Courbe_de_B%C3%A9zier" title="Programmation C/Courbe de Bézier">Courbe de Bézier</a></li>
+<li><a href="/wiki/Programmation_C/Triangle_de_Sierpi%C5%84ski" title="Programmation C/Triangle de Sierpiński">Triangle de Sierpiński</a></li></ul></li>
+<li><a href="/wiki/Programmation_C/Gestion_de_la_m%C3%A9moire" title="Programmation C/Gestion de la mémoire">Gestion de la mémoire</a></li>
+<li><a href="/wiki/Programmation_C/Gestion_des_signaux" title="Programmation C/Gestion des signaux">Gestion des signaux</a></li></ul></li>
+<li><a href="/wiki/Programmation_C/Conclusion" title="Programmation C/Conclusion">Conclusion</a></li>
+<li><a href="/wiki/Programmation_C/Bibliographie" title="Programmation C/Bibliographie">Bibliographie</a></li></ul>
+</small><p><small></small>
+</p>
+</td></tr>
+<tr>
+<td align="right" bgcolor="white"><small><a class="external text" href="//fr.wikibooks.org/w/index.php?title=Mod%C3%A8le:Programmation_C&amp;action=edit">Modifier ce modèle</a></small>
+</td></tr></tbody></table>
+</div>
+<p>Il existe deux types de tableaux&#160;: les tableaux statiques, dont la taille est connue à la compilation, et les tableaux dynamiques, dont la taille est connue à l'exécution. Nous ne nous intéresserons pour l'instant qu'aux tableaux statiques, les tableaux dynamiques seront présentés avec les <a href="/wiki/Programmation_C/Pointeurs" title="Programmation C/Pointeurs">pointeurs</a>.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="fr" dir="ltr"><h2>Sections</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Syntaxe"><span class="tocnumber">1</span> <span class="toctext">Syntaxe</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Déclaration"><span class="tocnumber">1.1</span> <span class="toctext">Déclaration</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Accès_aux_éléments"><span class="tocnumber">1.2</span> <span class="toctext">Accès aux éléments</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Exemples"><span class="tocnumber">1.3</span> <span class="toctext">Exemples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Tableaux_à_plusieurs_dimensions"><span class="tocnumber">2</span> <span class="toctext">Tableaux à plusieurs dimensions</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Initialisation_des_tableaux"><span class="tocnumber">3</span> <span class="toctext">Initialisation des tableaux</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Conversion_des_noms_de_tableaux_en_pointeurs"><span class="tocnumber">4</span> <span class="toctext">Conversion des noms de tableaux en pointeurs</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Exceptions_à_la_règle_de_conversion"><span class="tocnumber">4.1</span> <span class="toctext">Exceptions à la règle de conversion</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Cas_des_paramètres_de_fonctions"><span class="tocnumber">4.2</span> <span class="toctext">Cas des paramètres de fonctions</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Cas_des_tableaux_externes"><span class="tocnumber">4.3</span> <span class="toctext">Cas des tableaux externes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Tableaux_VLA_passés_à_une_fonction"><span class="tocnumber">5</span> <span class="toctext">Tableaux VLA passés à une fonction</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Chaînes_de_caractères"><span class="tocnumber">6</span> <span class="toctext">Chaînes de caractères</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Syntaxe">Syntaxe</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Modifier la section : Syntaxe">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=1" title="Modifier la section : Syntaxe">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="D.C3.A9claration"></span><span class="mw-headline" id="Déclaration">Déclaration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Modifier la section : Déclaration">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=2" title="Modifier la section : Déclaration">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="n">T</span> <span class="n">tableau</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
+</pre></div>
+<p>Déclare un <i>tableau</i> de <i>N</i> éléments, les éléments étant de type <i>T</i>. <i>N</i> doit être un nombre connu à la compilation, N ne peut pas être une variable. Pour avoir des tableaux dynamiques, il faut passer par l'allocation mémoire.
+</p><p>Cette dernière restriction a été levée par la norme C99 qui a apporté le type tableau à longueur variable appelé <b>Variable Length Array</b> (<b>VLA</b>). il est maintenant possible de déclarer un tableau de type VLA par&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="n">T</span> <span class="n">tableau</span><span class="p">[</span><span class="n">expr</span><span class="p">];</span>
+</pre></div>
+<p>où <i>expr</i> est une expression entière, calculée à l'exécution du programme. Ce type de tableau <b>ne peut pas</b> appartenir à la classe de stockage <b>static</b> ou <b>extern</b>. Sa portée est limitée au bloc dans lequel il est défini. Par rapport à une allocation dynamique, les risques de fuite mémoire sont supprimés.
+</p>
+<h3><span id="Acc.C3.A8s_aux_.C3.A9l.C3.A9ments"></span><span class="mw-headline" id="Accès_aux_éléments">Accès aux éléments</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Modifier la section : Accès aux éléments">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=3" title="Modifier la section : Accès aux éléments">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>L'exemple précédent a permis de déclarer un tableau à N éléments. En C, ces éléments sont indexés de 0 à N-1, et le i<sup><small>e</small></sup> élément peut être accédé de la manière suivante (où <code>i</code> est supposé déclaré comme une variable entière ayant une valeur entre 0 et N-1):
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="n">tableau</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</pre></div>
+<p><b>Note:</b> La syntaxe suivante est équivalente à la précédente:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="n">i</span><span class="p">[</span><span class="n">tableau</span><span class="p">]</span>
+</pre></div>
+<p>Bien qu'autorisée par le C, elle va à l'encontre de ce à quoi nombre de programmeurs sont habitués dans d'autres langages, c'est pourquoi elle est <b>très peu</b> utilisée. Comme, de plus, elle n'apporte aucun réel avantage par rapport à la première syntaxe, elle est simplement à éviter, au profit de la précédente.
+</p>
+<h3><span class="mw-headline" id="Exemples">Exemples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Modifier la section : Exemples">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=4" title="Modifier la section : Exemples">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">tableau</span><span class="p">[</span><span class="mi">10</span><span class="p">];</span> <span class="cm">/* déclare un tableau de 10 entiers */</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="cm">/* boucle &lt;&lt; classique &gt;&gt; pour le parcours d&#39;un tableau */</span>
+<span class="p">{</span>
+    <span class="n">tableau</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>  <span class="cm">/* chaque case du tableau reçoit son indice comme valeur */</span>
+<span class="p">}</span>
+</pre></div>
+<div style="width:auto; float:none; clear:; margin:.5em 0em; padding:.5em; border:1px solid #A0A0A0; background-color:auto;"><a href="/wiki/Fichier:Achtung.svg" class="image" title="Avertissement"><img alt="Avertissement" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/20px-Achtung.svg.png" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/30px-Achtung.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/40px-Achtung.svg.png 2x" data-file-width="628" data-file-height="550" /></a> Ce code contient <b>une erreur volontaire</b>&#160;!
+</div>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">tableau</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span> <span class="cm">/* déclare un tableau d&#39;un entier */</span>
+
+<span class="n">tableau</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="cm">/* accède à l&#39;élément d&#39;indice 10 (qui ne devrait pas exister) */</span>
+
+<span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">tableau</span><span class="p">[</span><span class="mi">10</span><span class="p">]);</span>
+</pre></div>
+<p>Ce deuxième exemple, non seulement peut compiler (le compilateur peut ne pas détecter le dépassement de capacité), mais peut aussi s'exécuter et afficher le «&#160;bon&#160;» résultat. <b>Le langage C n'impose pas à une implémentation de vérifier les accès, en écriture comme en lecture, hors des limites d'un tableau</b>&#160;; il précise explicitement qu'un tel code a un <i>comportement indéfini</i>, donc que n'importe quoi peut se passer. En l’occurrence, ce code peut très bien marcher comme on pourrait l'attendre, i.e. afficher <code>5</code>, ou causer un arrêt du programme avec erreur (si la zone qui correspondrait au 11<sup>ème</sup> élément du tableau est hors de la mémoire allouée au processus, le système d'exploitation peut détecter une tentative d'accès invalide à une zone mémoire, ce qui peut se traduire par une «&#160;erreur de segmentation&#160;» qui termine le programme), ou encore corrompre une autre partie de la mémoire du processus (dans le cas où le pseudo-11<sup>ème</sup> élément correspondrait à une partie de la mémoire du processus), ce qui peut modifier son comportement ultérieur de manière très difficile à prévoir.
+</p><p>Ce code est donc un exemple d'un type de bogue très courant en langage C. S'il est facile à détecter dans ce code très court, il peut être très difficile à identifier dans du code plus complexe, où on peut par exemple essayer d'accéder à un indice <code>i</code> d'un tableau, la valeur de <code>i</code> pouvant varier suivant un flot d'exécution complexe, ou alors essayer de copier le contenu d'un tableau dans un autre, sans vérifier la taille du tableau de destination (ce dernier cas est connu sous le nom de <i>débordement de tampon</i>, <i>dépassement de capacité</i>, ou encore <i>buffer overflow</i> en anglais). <b>Il est donc très important de s'assurer que tous les accès au contenu de tableaux, en lecture comme en écriture, se font dans les limites de ses bornes.</b>
+</p>
+<h2><span id="Tableaux_.C3.A0_plusieurs_dimensions"></span><span class="mw-headline" id="Tableaux_à_plusieurs_dimensions">Tableaux à plusieurs dimensions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Modifier la section : Tableaux à plusieurs dimensions">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=5" title="Modifier la section : Tableaux à plusieurs dimensions">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Les tableaux vus pour l'instant étaient des tableaux à une dimension (<i>ie</i>&#160;: des tableaux à un seul indice), il est possible de déclarer des tableaux possédant un nombre aussi grand que l'on veut de dimensions. Par exemple pour déclarer un tableau d'entiers à deux dimensions&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">matrice</span><span class="p">[</span><span class="mi">10</span><span class="p">][</span><span class="mi">5</span><span class="p">];</span>
+</pre></div>
+<p>Pour accèder aux éléments d'un tel tableau, on utilise une notation similaire à celle vue pour les tableaux à une dimension&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="n">matrice</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</pre></div>
+<p>affecte la valeur 5 à la case d'indice (0,0) du tableau.
+</p><p>Avec le type VLA (Variable Length Array), introduit par C99, il est possible de définir un tableau à plusieurs dimensions dont les bornes ne sont connues qu'à l'exécution et non à la compilation&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="k">static</span> <span class="kt">void</span> <span class="nf">vlaDemo</span><span class="p">(</span><span class="kt">int</span> <span class="n">taille1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">taille2</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="c1">// Declaration du tableau VLA</span>
+	<span class="kt">int</span> <span class="n">table</span><span class="p">[</span><span class="n">taille1</span><span class="p">][</span><span class="n">taille2</span><span class="p">];</span>
+
+	<span class="c1">// ...</span>
+</pre></div>
+<h2><span class="mw-headline" id="Initialisation_des_tableaux">Initialisation des tableaux</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Modifier la section : Initialisation des tableaux">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=6" title="Modifier la section : Initialisation des tableaux">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Il est possible d'initialiser directement les tableaux lors de leur déclaration&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">tableau</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">1</span> <span class="p">,</span> <span class="mi">5</span> <span class="p">,</span> <span class="mi">45</span> <span class="p">,</span> <span class="mi">3</span> <span class="p">,</span> <span class="mi">9</span> <span class="p">};</span>
+</pre></div>
+<p>initialise le <i>tableau</i> d'entiers avec les valeurs fournies entre accolades (<code>tableau[0] = 1;</code>, <code>tableau[1] = 5;</code>, etc.)
+</p><p>À noter que si on ne spécifie aucune taille entre les crochets du tableau, le compilateur la calculera automatiquement pour contenir tous les éléments. La déclaration ci-dessus aurait pu s'écrire plus simplement&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">tableau</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">1</span> <span class="p">,</span> <span class="mi">5</span> <span class="p">,</span> <span class="mi">45</span> <span class="p">,</span> <span class="mi">3</span> <span class="p">,</span> <span class="mi">9</span> <span class="p">};</span>
+</pre></div>
+<p>Si on déclare un tableau de taille fixe, mais qu'on l'initialise avec moins d'éléments qu'il peut contenir, les éléments restant seront mis à zéro. On utilise cette <i>astuce</i> pour initialiser rapidement un tableau à zéro&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">tableau</span><span class="p">[</span><span class="mi">512</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">};</span>
+</pre></div>
+<p>Cette technique est néanmoins à éviter, car dans ce cas le tableau sera stocké en entier dans le code du programme, faisant grossir artificiellement la taille du programme exécutable. Alors qu'en ne déclarant qu'une taille et l'initialisant à la main au début du programme, la plupart des formats d'exécutable sont capables d'optimiser en ne stockant que la taille du tableau dans le programme final.
+</p><p>Néanmoins, cette syntaxe est aussi utilisable pour les tableaux à plusieurs dimensions&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">matrice</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="p">{</span> <span class="mi">1</span> <span class="p">,</span> <span class="mi">2</span> <span class="p">,</span> <span class="mi">3</span> <span class="p">}</span> <span class="p">,</span> <span class="p">{</span> <span class="mi">4</span> <span class="p">,</span> <span class="mi">5</span> <span class="p">,</span> <span class="mi">6</span> <span class="p">}</span> <span class="p">};</span>
+</pre></div>
+<p>Ce qui peut aussi s'écrire&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">matrice</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">1</span> <span class="p">,</span> <span class="mi">2</span> <span class="p">,</span> <span class="mi">3</span> <span class="p">,</span> <span class="mi">4</span> <span class="p">,</span> <span class="mi">5</span> <span class="p">,</span> <span class="mi">6</span> <span class="p">};</span>
+</pre></div>
+<p>À noter que si on veut aussi utiliser l'adaptation dynamique, il faut quand même spécifier une dimension&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">identite</span><span class="p">[][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="p">{</span> <span class="mi">1</span> <span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">0</span> <span class="p">}</span> <span class="p">,</span> <span class="p">{</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">1</span> <span class="p">,</span> <span class="mi">0</span> <span class="p">}</span> <span class="p">,</span> <span class="p">{</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">1</span> <span class="p">}</span> <span class="p">};</span>
+<span class="cm">/* Ou plus &quot;simplement&quot; */</span>
+<span class="kt">int</span> <span class="n">identite</span><span class="p">[][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span> <span class="p">{</span> <span class="mi">1</span> <span class="p">}</span> <span class="p">,</span> <span class="p">{</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">1</span> <span class="p">}</span> <span class="p">,</span> <span class="p">{</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">0</span> <span class="p">,</span> <span class="mi">1</span> <span class="p">}</span> <span class="p">};</span>
+</pre></div>
+<h2><span class="mw-headline" id="Conversion_des_noms_de_tableaux_en_pointeurs">Conversion des noms de tableaux en pointeurs</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Modifier la section : Conversion des noms de tableaux en pointeurs">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=7" title="Modifier la section : Conversion des noms de tableaux en pointeurs">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>A quelques exceptions près (c.f. ci-dessous), un nom de tableau apparaissant dans une expression C sera automatiquement converti en un pointeur vers son premier élément lors de l'évaluation de cette expression&#160;: si <code>tab</code> est le nom d'un tableau d'entiers, le <i>nom de tableau</i> <code>tab</code> sera converti dans le type pointeur vers <code>int</code> dans <i>l'expression</i> tab, et la valeur de cette expression sera l'adresse du début de la zone mémoire allouée pour le stockage des éléments du tableau, i.e. l'adresse de son premier élément. Le code suivant est par exemple valide&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">tab</span><span class="p">[</span><span class="mi">10</span><span class="p">];</span>
+<span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">,</span> <span class="o">*</span><span class="n">q</span><span class="p">;</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">tab</span><span class="p">;</span> 
+<span class="n">q</span> <span class="o">=</span> <span class="o">&amp;</span><span class="p">(</span><span class="n">tab</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</pre></div>
+<p>La déclaration <code>int tab[10]</code> réserve une zone mémoire suffisante pour stocker 10 variables de type <code>int</code>, désignées par <code>tab[0]</code>, <code>tab[1]</code>..., <code>tab[9]</code>. Dans l'instruction <code>p = tab</code>, l'expression <code>tab</code> est de type pointeur vers  <code>int</code>, et la valeur affectée à <code>p</code> est l'adresse de la première case du tableau. Cette adresse est aussi l'adresse de la variable <code>tab[0]</code>&#160;: dans la seconde instruction, l'adresse de <code>tab[0]</code> est affectée à <code>q</code> via l'opérateur de prise d'adresse <code>&amp;</code>. Après la seconde instruction, <code>p</code> et <code>q</code> ont la même valeur, et les instructions <code>*p = 1</code>,  <code>*q = 1</code> ou <code>tab[0] = 1</code> deviennent opératoirement équivalentes.
+</p>
+<h3><span id="Exceptions_.C3.A0_la_r.C3.A8gle_de_conversion"></span><span class="mw-headline" id="Exceptions_à_la_règle_de_conversion">Exceptions à la règle de conversion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=8" class="mw-editsection-visualeditor" title="Modifier la section : Exceptions à la règle de conversion">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=8" title="Modifier la section : Exceptions à la règle de conversion">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Noter que dans la déclaration <code> int tab[10]</code>, le nom <code>tab</code> ne désigne pas en lui-même un pointeur mais bien un <i>tableau</i>, de type  <i>tableau d'entiers à 10 éléments</i>, même si ce  nom est converti en pointeur dans la plupart des contextes. Les exceptions à la règle de conversion interviennent&#160;: 
+</p>
+<ul><li>lorsque le nom du tableau est opérande de l'opérateur unaire <code>&amp;</code>,</li>
+<li>lorsqu'il est argument de l'opérateur <code>sizeof</code>,</li>
+<li>lorsqu'il est argument d'un pré ou d'une post-incrémentation ou décrémentation (<code>--</code>,<code>++</code>)</li>
+<li>lorsqu'il constitue la partie gauche d'une affectation,</li>
+<li>lorsqu'il est suivi de l'opérateur d'accès à un champ.</li></ul>
+<p>Dans chaque cas, le nom du tableau gardera le sens d'une variable de type tableau, c'est-à-dire conservera son type initial&#160;:
+</p>
+<ul><li>dans l'expression <code>&amp;tab</code>, la sous-expression <code>tab</code> conserve son type "tableau d'entiers à 10 éléments", et l'expression elle-même est de type "pointeur vers tableaux d'entiers à 10 éléments". Le code suivant est par exemple valide&#160;:</li></ul>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">tab</span><span class="p">[</span><span class="mi">10</span><span class="p">];</span>  <span class="cm">/* tableau d&#39;entiers à 10 éléments */</span>
+<span class="kt">int</span> <span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">)[</span><span class="mi">10</span><span class="p">];</span> <span class="cm">/* pointeur vers les tableaux d&#39;entiers à 10 éléments */</span>
+<span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">tab</span><span class="p">;</span>
+</pre></div>
+<p>Le code suivant est en revanche incorrect&#160;:
+</p>
+<div style="width:auto; float:none; clear:; margin:.5em 0em; padding:.5em; border:1px solid #A0A0A0; background-color:auto;"><a href="/wiki/Fichier:Achtung.svg" class="image" title="Avertissement"><img alt="Avertissement" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/20px-Achtung.svg.png" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/30px-Achtung.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/40px-Achtung.svg.png 2x" data-file-width="628" data-file-height="550" /></a> Ce code contient <b>plusieurs erreurs volontaires</b>&#160;!
+</div>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span> <span class="n">tab</span><span class="p">[</span><span class="mi">10</span><span class="p">];</span>
+<span class="kt">int</span> <span class="o">*</span><span class="n">p</span><span class="p">;</span>
+<span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">tab</span><span class="p">;</span> <span class="cm">/* incorrect. &#39;&amp;tab&#39; n&#39;est pas du bon type  */</span>
+</pre></div>
+<ul><li>dans <code>sizeof tab</code> la taille calculée sera celle de <code>tab</code> considéré encore comme une variable de type "tableau d'entiers à 10 éléments", soit 10 fois la taille d'un <code>int</code>.</li>
+<li>dans <code> tab++ </code>, <code> tab-- </code>, <code> --tab </code> ou <code> ++tab </code>, la sous-expression <code> tab </code> n'est ni une expression numérique ni un pointeur, mais bien une variable de type tableau&#160;: elle n'est donc ni incrémentable, ni décrémentable, et l'expression globale ne sera jamais compilable,</li>
+<li>dans l'instruction <code> tab = expr </code> où <code> expr </code> est une expression quelconque, <code> tab </code> est toujours considéré comme une variable de type "tableau d'entiers à 10 éléments"... la règle de conversion des noms de tableaux et les restrictions sur les conversions explicites font qu'il est <i>impossible</i> que <code> expr </code> soit de même type&#160;: cette affectation générera toujours une erreur de typage, et ne sera jamais compilable,</li>
+<li>dans l'expression <code> tab.champ </code> où <code> champ </code> est un nom de champ quelconque, <code> tab </code> est de type tableau, i.e. ne possède aucun champ, donc cette expression ne sera jamais compilable.</li></ul>
+<p>Le cas où <code> tab </code> est membre gauche d'une affectation montre que les valeurs de type tableau ne sont jamais manipulables de manière directe&#160;: il est par exemple impossible d'affecter un tableau à un autre tableau - l'instruction <code> tab_1 = tab_2 </code> est toujours incompilable, à cause de la conversion en pointeur de <code> tab_2 </code> - ou de comparer structurellement deux tableaux par une comparaison simple - dans <code> tab_1 == tab_2 </code>, les deux noms seront convertis en pointeur, et la comparaison effectuée sera celle des adresses.
+</p>
+<h3><span id="Cas_des_param.C3.A8tres_de_fonctions"></span><span class="mw-headline" id="Cas_des_paramètres_de_fonctions">Cas des paramètres de fonctions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=9" class="mw-editsection-visualeditor" title="Modifier la section : Cas des paramètres de fonctions">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=9" title="Modifier la section : Cas des paramètres de fonctions">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Tout paramètre de fonction déclaré comme étant de type "tableau d’éléments de type T" est automatiquement converti en un pointeur vers T à la compilation. Les deux écritures suivantes sont équivalentes&#160;:
+</p>
+<table cellspacing="0" cellpadding="3" style="border:thin black solid">
+
+<tbody><tr>
+<th style="background:#D0E2EE; width: 40%;">version avec tableaux
+</th>
+<th style="background:#ECE5CA; width: 60%;">version avec pointeurs
+</th></tr>
+<tr>
+<td style="background:#EAF5FB;">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">void</span> <span class="nf">f</span><span class="p">(</span><span class="kt">int</span> <span class="n">t</span><span class="p">[])</span> 
+<span class="p">{</span>
+   <span class="cm">/* ... */</span>
+<span class="p">}</span>
+<span class="kt">void</span> <span class="nf">g</span><span class="p">(</span><span class="kt">int</span> <span class="n">m</span><span class="p">[][</span><span class="mi">10</span><span class="p">])</span>
+<span class="p">{</span>
+   <span class="cm">/* ... */</span>
+<span class="p">}</span>
+</pre></div>
+</td>
+<td style="background:#FAF9EC;">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">void</span> <span class="nf">f</span><span class="p">(</span><span class="kt">int</span> <span class="o">*</span><span class="n">t</span><span class="p">)</span> 
+<span class="p">{</span>
+   <span class="cm">/* ... */</span>
+<span class="p">}</span>
+<span class="kt">void</span> <span class="nf">g</span><span class="p">(</span><span class="kt">int</span> <span class="p">(</span><span class="o">*</span><span class="n">m</span><span class="p">)[</span><span class="mi">10</span><span class="p">])</span>
+<span class="p">{</span>
+   <span class="cm">/* ... */</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table>
+<p>Dans la première version de <code> f </code> et <code> g </code>, les paramètres  <code> t </code> et <code> m </code> sont bien des pointeurs, conformément à l'équivalence avec la seconde version, et sont donc réaffectables dans le corps de ces fonctions. La taille en la première dimension de <code> t </code> et de <code> m </code>, même si elle est spécifiée dans le code (e.g. <code> void g(int m[10][10]) </code>), sera de toute manière effacée à la compilation&#160;: il ne s'agit alors que d'un simple commentaire pour le programmeur. 
+</p><p>Cette équivalence est cohérente avec la règle de conversion des noms de tableaux&#160;: lors d'un appel de la forme <code> f(tab) </code> où <code> tab </code> est un tableau d'entiers, le nom <code> tab </code> sera converti en pointeur vers <code> int </code>, qui est bien le type du paramètre de <code> f </code> dans la seconde version.  
+</p>
+<h3><span class="mw-headline" id="Cas_des_tableaux_externes">Cas des tableaux externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=10" class="mw-editsection-visualeditor" title="Modifier la section : Cas des tableaux externes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=10" title="Modifier la section : Cas des tableaux externes">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Dans le cas des déclarations externes, et contrairement au cas des paramètres de fonctions, il n'y a <i>pas</i> équivalence entre la notation par tableaux et la notation par pointeurs. Le programme suivant est en général compilable, mais incorrect&#160;: 
+</p>
+<div style="width:auto; float:none; clear:; margin:.5em 0em; padding:.5em; border:1px solid #A0A0A0; background-color:auto;"><a href="/wiki/Fichier:Achtung.svg" class="image" title="Avertissement"><img alt="Avertissement" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/20px-Achtung.svg.png" width="20" height="18" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/30px-Achtung.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/40px-Achtung.svg.png 2x" data-file-width="628" data-file-height="550" /></a> Ce code contient <b>une erreur volontaire</b>&#160;!
+</div>
+<table cellspacing="0" cellpadding="3" style="border:thin black solid">
+
+<tbody><tr>
+<th style="background:#D0E2EE; width: 40%;">fichier1.c
+</th>
+<th style="background:#ECE5CA; width: 60%;">fichier2.c
+</th></tr>
+<tr>
+<td style="background:#EAF5FB;">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="kt">int</span> <span class="n">tab</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">42</span><span class="p">};</span>
+ 
+<span class="kt">void</span> <span class="nf">f</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;fichier1 : tab = %p</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">tab</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td>
+<td style="background:#FAF9EC;">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="k">extern</span> <span class="kt">int</span> <span class="o">*</span><span class="n">tab</span><span class="p">;</span>
+<span class="kt">void</span> <span class="nf">f</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">nb</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[]</span> <span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">f</span><span class="p">();</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;fichier2 : tab = %p</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">tab</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table>
+<p>Les valeurs affichées pour <code> tab </code> dans <code> main </code> et dans <code> f </code> seront en général distinctes.
+L'erreur se situe dans la déclaration externe de <code>tab</code> située dans le fichier <code>fichier2.c</code>. Il aurait fallu écrire la déclaration suivante, spécifiant correctement le type de <code> tab </code> dans <code> fichier2.c </code> comme étant celui d'un tableau et non d'un pointeur (mais ne spécifiant pas sa taille, le compilateur n'effectuant de toute manière aucun test de dépassement)&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="k">extern</span> <span class="kt">int</span> <span class="n">tab</span><span class="p">[];</span>
+</pre></div>
+<p>L'absence de message d'erreur dans la compilation de la première version de ce programme n'est due qu'à l'insuffisance de la vérification de la cohérence globale du typage lors de la phase de liaison&#160;: il est plus généralement possible de déclarer une variable externe de n'importe quel autre type que son type réel, sans que l'incohérence globale du typage soit nécessairement signalée par le compilateur. Aucune norme ne spécifiant le comportement du programme résultant, ce comportement est, de fait, indéfini.
+</p>
+<h2><span id="Tableaux_VLA_pass.C3.A9s_.C3.A0_une_fonction"></span><span class="mw-headline" id="Tableaux_VLA_passés_à_une_fonction">Tableaux VLA passés à une fonction</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=11" class="mw-editsection-visualeditor" title="Modifier la section : Tableaux VLA passés à une fonction">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=11" title="Modifier la section : Tableaux VLA passés à une fonction">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>En C99, il est possible de passer à une fonction un tableau de type VLA (Variable Length Array). Il faut passer les tailles des dimensions en premier.
+</p><p>Exemple de fonction recevant en argument un tableau de type VLA à deux dimensions&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="k">static</span> <span class="kt">void</span> <span class="nf">vlaPrint</span><span class="p">(</span><span class="kt">int</span> <span class="n">taille1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">taille2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">table</span><span class="p">[</span><span class="n">taille1</span><span class="p">][</span><span class="n">taille2</span><span class="p">])</span>
+<span class="p">{</span>
+	<span class="c1">// Ecriture du tableau sur stdout</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span> <span class="n">taille1</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">j</span><span class="o">&lt;</span> <span class="n">taille2</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;table[%d][%d] = %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">table</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h2><span id="Cha.C3.AEnes_de_caract.C3.A8res"></span><span class="mw-headline" id="Chaînes_de_caractères">Chaînes de caractères</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit&amp;section=12" class="mw-editsection-visualeditor" title="Modifier la section : Chaînes de caractères">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit&amp;section=12" title="Modifier la section : Chaînes de caractères">modifier le wikicode</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Comme il a été dit tout au long de cet ouvrage, les chaînes de caractères sont des tableaux particuliers. En déclarant une chaîne de caractères on peut soit la manipuler en tant que pointeur soit en tant que tableau. Considérez les déclarations suivantes&#160;:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">char</span> <span class="o">*</span> <span class="n">chaine1</span> <span class="o">=</span> <span class="s">&quot;Ceci est une chaine&quot;</span><span class="p">;</span>
+<span class="kt">char</span> <span class="n">chaine2</span><span class="p">[]</span> <span class="o">=</span> <span class="s">&quot;Ceci est une autre chaine&quot;</span><span class="p">;</span>
+</pre></div>
+<p>Bien que se manipulant exactement de la même façon, les opérations permises sur les deux variables ne sont pas tout à fait les mêmes. Dans le premier cas on déclare un pointeur sur une chaîne de caractères statique, dans le second cas, un tableau (alloué soit sur la pile si la variable est déclarée dans une fonction ou soit dans le segment global si la variable est globale) de taille suffisante pour contenir tous les caractères de la chaîne affectée (incluant le caractère nul).
+</p><p>Le second cas est donc une notation abrégée pour <code>char chaine2[] = { 'C', 'e', 'c', 'i', ' ', ..., 'e', '\0' };</code>. Dans tous les autres cas (ceux où une chaîne de caractères <b>ne sert pas</b> à initialiser un tableau), <b>la chaîne déclarée est statique</b> (les données sont persistantes entre les différents appels de fonctions), et sur certaines architectures, pour ne pas dire toutes, elle est même en <b>lecture seule</b>. En effet l'instruction <code>chaine1[0] = 'c';</code> peut provoquer un accès illégal à la mémoire. En fait le compilateur peut optimiser la gestion des chaînes en regroupant celles qui sont identiques. C'est pourquoi il est préférable de classifier les pointeurs sur chaîne de caractères avec le mot clé <code>const</code>.
+</p><p>On comprend aisément que si <code>chaine2</code> est alloué sur la pile (déclaré dans une fonction), la valeur <b>ne pourra pas</b> être utilisée comme valeur de retour. Tandis que la valeur de <code>chaine1</code> pourra être retournée même si c'est une variable locale.
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw2188
+Cached time: 20180926211843
+Cache expiry: 1900800
+Dynamic content: false
+CPU time usage: 0.120 seconds
+Real time usage: 4.341 seconds
+Preprocessor visited node count: 308/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 4100/2097152 bytes
+Template argument size: 448/2097152 bytes
+Highest expansion depth: 6/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 17189/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 3419.228      1 -total
+  0.18%    6.262      1 Modèle:Programmation_C
+  0.18%    6.111      3 Modèle:Erreur_volontaire
+  0.11%    3.871      1 Modèle:Icône_version_imprimable
+  0.11%    3.637      2 Modèle:Cadre
+  0.06%    1.887      1 Modèle:Icône_de_titre
+  0.05%    1.655      1 Modèle:E
+-->
+
+<!-- Saved in parser cache with key frwikibooks:pcache:idhash:462-0!canonical and timestamp 20180926211839 and revision id 511209
+ -->
+</div><noscript><img src="//fr.wikibooks.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Récupérée de «&#160;<a dir="ltr" href="https://fr.wikibooks.org/w/index.php?title=Programmation_C/Tableaux&amp;oldid=511209">https://fr.wikibooks.org/w/index.php?title=Programmation_C/Tableaux&amp;oldid=511209</a>&#160;»					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Sp%C3%A9cial:Cat%C3%A9gories" title="Spécial:Catégories">Catégorie</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Programmation_C_(livre)" title="Catégorie:Programmation C (livre)">Programmation C (livre)</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Menu de navigation</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Outils personnels</h3>
+						<ul>
+							<li id="pt-anonuserpage">Non connecté</li><li id="pt-anontalk"><a href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n">Discussion</a></li><li id="pt-anoncontribs"><a href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Programmation+C%2FTableaux" title="Nous vous encourageons à créer un compte utilisateur et vous connecter; ce n’est cependant pas obligatoire">Créer un compte</a></li><li id="pt-login"><a href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Programmation+C%2FTableaux" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire [o]" accesskey="o">Se connecter</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Espaces de noms</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Programmation_C/Tableaux" title="Voir le contenu de la page [c]" accesskey="c">Page</a></span></li><li id="ca-talk"><span><a href="/wiki/Discussion:Programmation_C/Tableaux" rel="discussion" title="Discussion au sujet de cette page de contenu [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variantes</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Affichages</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Programmation_C/Tableaux">Lire</a></span></li><li id="ca-ve-edit" class="collapsible"><span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v">Modifier</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=edit" title="Modifier le wikicode [e]" accesskey="e">Modifier le wikicode</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h">Voir l’historique</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>Plus</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Rechercher</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Rechercher dans Wikilivres" title="Rechercher dans Wikilivres [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Spécial:Recherche" name="title"/><input type="submit" name="fulltext" value="Rechercher" title="Rechercher les pages comportant ce texte." id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Continuer" title="Accédez à une page du même nom si elle existe" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Accueil"  title="Visiter la page d’accueil"></a></div>
+						<div class="portal" role="navigation" id="p-Bibliothèque" aria-labelledby="p-Bibliothèque-label">
+			<h3 id="p-Bibliothèque-label">Bibliothèque</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage"><a href="/wiki/Accueil" title="Visiter la page d&#039;accueil du site [z]" accesskey="z">Accueil</a></li><li id="n-La-vitrine"><a href="/wiki/Wikilivres:Vitrine">La vitrine</a></li><li id="n-Tous-les-livres"><a href="/wiki/Wikilivres:Tous_les_livres">Tous les livres</a></li><li id="n-Rechercher-un-livre"><a href="/wiki/Wikilivres:Rechercher_un_livre">Rechercher un livre</a></li><li id="n-Wikijunior"><a href="/wiki/Wikijunior">Wikijunior</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Navigation" aria-labelledby="p-Navigation-label">
+			<h3 id="p-Navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-recentchanges"><a href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r">Modifications récentes</a></li><li id="n-Communauté"><a href="/wiki/Wikilivres:Portail_communautaire">Communauté</a></li><li id="n-Le-Bistro"><a href="/wiki/Wikilivres:Le_Bistro/2018">Le Bistro</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikibooks.org&amp;uselang=fr" title="Soutenez-nous">Faire un don</a></li><li id="n-Livre-au-hasard"><a href="/wiki/Sp%C3%A9cial:RandomRootpage">Livre au hasard</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Aide" aria-labelledby="p-Aide-label">
+			<h3 id="p-Aide-label">Aide</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide">Aide</a></li><li id="n-Wikilivre-d&#039;aide"><a href="/wiki/Wikilivres">Wikilivre d'aide</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Outils</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Programmation_C/Tableaux" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j">Pages liées</a></li><li id="t-recentchangeslinked"><a href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Programmation_C/Tableaux" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k">Suivi des pages liées</a></li><li id="t-upload"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=fr" title="Importer des fichiers [u]" accesskey="u">Importer un fichier</a></li><li id="t-specialpages"><a href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]" accesskey="q">Pages spéciales</a></li><li id="t-permalink"><a href="/w/index.php?title=Programmation_C/Tableaux&amp;oldid=511209" title="Adresse permanente de cette version de la page">Lien permanent</a></li><li id="t-info"><a href="/w/index.php?title=Programmation_C/Tableaux&amp;action=info" title="Plus d’information sur cette page">Information sur la page</a></li><li id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Programmation_C%2FTableaux&amp;id=511209" title="Informations sur la manière de citer cette page">Citer cette page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">Dans d’autres langues</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-en"><a href="https://en.wikibooks.org/wiki/C_Programming/Arrays" title="C Programming/Arrays — anglais" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikibooks.org/wiki/Programmeerimiskeel_C/Massiivid" title="Programmeerimiskeel C/Massiivid — estonien" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikibooks.org/wiki/C/Taulukot" title="C/Taulukot — finnois" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikibooks.org/wiki/C/Vettori_e_puntatori/Vettori" title="C/Vettori e puntatori/Vettori — italien" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikibooks.org/wiki/C/Tablice" title="C/Tablice — polonais" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:NewItem?site=frwikibooks&amp;page=Programmation+C%2FTableaux" title="Ajoutez les liens interlangues" class="wbc-editpage">Ajouter des liens</a></span></div>			</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Imprimer / exporter</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Programmation+C%2FTableaux">Créer une compilation</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Sp%C3%A9cial:ElectronPdf&amp;page=Programmation+C%2FTableaux&amp;action=show-download-screen">Télécharger la compilation au format PDF</a></li><li id="t-print"><a href="/w/index.php?title=Programmation_C/Tableaux&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p">Version imprimable</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 7 avril 2016 à 04:33.</li>
+								<li id="footer-info-copyright">Les textes sont disponibles sous <a href="//creativecommons.org/licenses/by-sa/3.0/">licence Creative Commons attribution partage à l’identique</a> ; d’autres termes peuvent s’appliquer.<br/>
+Voyez les <a href="//wikimediafoundation.org/wiki/Conditions_d'utilisation">termes d’utilisation</a> pour plus de détails.<br/></li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr" class="extiw" title="m:Privacy policy/fr">Politique de confidentialité</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikilivres:%C3%80_propos_de" class="mw-redirect" title="Wikilivres:À propos de">À propos de Wikilivres</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikilivres:Avertissements_g%C3%A9n%C3%A9raux" title="Wikilivres:Avertissements généraux">Avertissements</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Développeurs</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+								<li id="footer-places-mobileview"><a href="//fr.m.wikibooks.org/w/index.php?title=Programmation_C/Tableaux&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.120","walltime":"4.341","ppvisitednodes":{"value":308,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":4100,"limit":2097152},"templateargumentsize":{"value":448,"limit":2097152},"expansiondepth":{"value":6,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":17189,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3419.228      1 -total","  0.18%    6.262      1 Modèle:Programmation_C","  0.18%    6.111      3 Modèle:Erreur_volontaire","  0.11%    3.871      1 Modèle:Icône_version_imprimable","  0.11%    3.637      2 Modèle:Cadre","  0.06%    1.887      1 Modèle:Icône_de_titre","  0.05%    1.655      1 Modèle:E"]},"cachereport":{"origin":"mw2188","timestamp":"20180926211843","ttl":1900800,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":86,"wgHostname":"mw2274"});});</script>
+	</body>
+</html>
