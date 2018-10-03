@@ -6,7 +6,7 @@
 /*   By: flfinet <marvin@le-101.fr>                 +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/10/03 17:26:32 by flfinet      #+#   ##    ##    #+#       */
-/*   Updated: 2018/10/03 17:34:45 by flfinet     ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/10/03 17:35:04 by flfinet     ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -14,7 +14,7 @@
 #ifndef LIBFT_H_
 # define LIBFT_H_
 
-#include <stdio.h>
+#include <stdlib.h>
 
 int				ft_atoi(char *str);
 int				ft_isalnum(char c);

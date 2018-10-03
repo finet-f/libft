@@ -6,7 +6,7 @@
 /*   By: flfinet <marvin@le-101.fr>                 +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/10/03 17:26:32 by flfinet      #+#   ##    ##    #+#       */
-/*   Updated: 2018/10/03 17:35:04 by flfinet     ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/10/03 18:05:55 by flfinet     ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -26,7 +26,7 @@ char			*ft_strcat(char *dest, char *src);
 char			*ft_strchr(const char *s, int c);
 int				ft_strcmp(const char *s1, const char *s2);
 char			*ft_strcpy(char *dest, char *src);
-char			*ft_strdup(char *src);
+char			*ft_strdup(const char *src);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
 int				ft_strlen(char *str);
 char			*ft_strncat(char *dest, char *src, int nb);
